@@ -55,10 +55,10 @@ Target column: `maintenance_required` (1 or 0)
 ---
 
 ## ✅ Results
-- Model Accuracy: **93.4%**
-- Precision: **92.1%**
-- Recall: **94.6%**
-- F1 Score: **93.3%**
+- Model Accuracy: **85.0%**
+- Precision: **0.84%**
+- Recall: **0.85%**
+- F1 Score: **0.84%**
 
 These metrics are based on evaluation against the synthetic validation set.
 
