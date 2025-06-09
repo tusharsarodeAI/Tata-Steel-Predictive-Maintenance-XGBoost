@@ -1,0 +1,41 @@
+2025-06-10 01:02:16,301 - model_training - DEBUG - Loading features from data\processed\train_features.csv
+2025-06-10 01:02:16,302 - model_training - DEBUG - Loading labels from data\processed\train_labels.csv
+2025-06-10 01:02:16,306 - model_training - ERROR - File not found: [Errno 2] No such file or directory: 'data\\processed\\train_features.csv'
+2025-06-10 01:08:32,159 - model_training - DEBUG - Loading features from data\processed\train_features.csv
+2025-06-10 01:08:32,160 - model_training - DEBUG - Loading labels from data\processed\train_labels.csv
+2025-06-10 01:08:32,165 - model_training - ERROR - File not found: [Errno 2] No such file or directory: 'data\\processed\\train_features.csv'
+2025-06-10 01:10:41,198 - model_training - DEBUG - Loading features from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_features.csv
+2025-06-10 01:10:41,200 - model_training - DEBUG - Loading labels from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_labels.csv
+2025-06-10 01:10:41,204 - model_training - ERROR - File not found: [Errno 2] No such file or directory: 'C:\\personal projects\\Tata-Steel-Predictive-Maintenance-XGBoost\\data\\processed\\train_features.csv'
+2025-06-10 01:11:30,793 - model_training - DEBUG - Loading features from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_features.csv
+2025-06-10 01:11:30,793 - model_training - DEBUG - Loading labels from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_labels.csv
+2025-06-10 01:11:30,796 - model_training - ERROR - File not found: [Errno 2] No such file or directory: 'C:\\personal projects\\Tata-Steel-Predictive-Maintenance-XGBoost\\data\\processed\\train_features.csv'
+2025-06-10 01:12:21,065 - model_training - DEBUG - Loading features from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_features.csv
+2025-06-10 01:12:21,065 - model_training - DEBUG - Loading labels from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_labels.csv
+2025-06-10 01:12:21,066 - model_training - ERROR - File not found: [Errno 2] No such file or directory: 'C:\\personal projects\\Tata-Steel-Predictive-Maintenance-XGBoost\\data\\processed\\train_features.csv'
+2025-06-10 01:14:27,409 - model_training - DEBUG - Loading features from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_features.csv
+2025-06-10 01:14:27,409 - model_training - DEBUG - Loading labels from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_labels.csv
+2025-06-10 01:14:27,411 - model_training - ERROR - File not found: [Errno 2] No such file or directory: 'C:\\personal projects\\Tata-Steel-Predictive-Maintenance-XGBoost\\data\\processed\\train_features.csv'
+2025-06-10 01:16:06,790 - model_training - DEBUG - Loading features from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_features.csv
+2025-06-10 01:16:06,792 - model_training - DEBUG - Loading labels from C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_labels.csv
+2025-06-10 01:16:06,796 - model_training - ERROR - File not found: [Errno 2] No such file or directory: 'C:\\personal projects\\Tata-Steel-Predictive-Maintenance-XGBoost\\data\\processed\\train_features.csv'
+2025-06-10 01:19:24,042 - model_training - DEBUG - Loading features from: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_features.csv
+2025-06-10 01:19:24,044 - model_training - DEBUG - Loading labels from: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_labels.csv
+2025-06-10 01:28:34,958 - model_training - DEBUG - Feature path: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_processed.csv
+2025-06-10 01:28:34,959 - model_training - DEBUG - Model path: models\xgb_model.pkl
+2025-06-10 01:28:34,960 - model_training - DEBUG - Loading DataFrame from: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\train_processed.csv
+2025-06-10 01:28:35,549 - model_training - DEBUG - Features shape: (40000, 14), Labels shape: (40000,)
+2025-06-10 01:28:35,607 - model_training - DEBUG - Train shape: (32000, 14), Validation shape: (8000, 14)
+2025-06-10 01:28:39,671 - model_training - DEBUG - XGBoost model training complete.
+2025-06-10 01:28:39,687 - model_training - DEBUG - Validation Accuracy: 0.9985
+2025-06-10 01:28:39,717 - model_training - DEBUG - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2416
+           1       1.00      1.00      1.00      5584
+
+    accuracy                           1.00      8000
+   macro avg       1.00      1.00      1.00      8000
+weighted avg       1.00      1.00      1.00      8000
+
+2025-06-10 01:28:39,731 - model_training - DEBUG - Model saved to: models\xgb_model.pkl

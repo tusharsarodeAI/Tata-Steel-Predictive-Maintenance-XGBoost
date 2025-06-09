@@ -1,0 +1,55 @@
+schema: '2.0'
+stages:
+  data_collection:
+    cmd: python src/data_ingestion.py
+    deps:
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: 906f96a63425c4047e97a716488ff588
+      size: 2956
+    outs:
+    - path: data/raw
+      hash: md5
+      md5: e41ff0c52c3b163391f2b14316031052.dir
+      size: 12171043
+      nfiles: 2
+  preprocess:
+    cmd: python src/data_preprocessing.py
+    deps:
+    - path: data/raw/test.csv
+      hash: md5
+      md5: 57259b06275ab25a3dbae3a65486068d
+      size: 2434168
+    - path: data/raw/train.csv
+      hash: md5
+      md5: 1c57ca749d5e31e186d842f500918cb6
+      size: 9736875
+    - path: src/data_preprocessing.py
+      hash: md5
+      md5: fe52123471669c2f6e7ea99bd8ef9225
+      size: 3083
+    outs:
+    - path: data/processed/test_processed.csv
+      hash: md5
+      md5: 0adb5f3407ee92ffe0b94ca6b74d71e4
+      size: 2432366
+    - path: data/processed/train_processed.csv
+      hash: md5
+      md5: ba84a54a992c323b738e4355b82bdf13
+      size: 9729282
+  train_model:
+    cmd: python src/model_training.py
+    deps:
+    - path: data/processed/train_processed.csv
+      hash: md5
+      md5: ba84a54a992c323b738e4355b82bdf13
+      size: 9729282
+    - path: src/model_training.py
+      hash: md5
+      md5: 5cbeb7b29b084a5e2fbd4e838fcd4c99
+      size: 3146
+    outs:
+    - path: models/xgb_model.pkl
+      hash: md5
+      md5: 18f6cc5d070e3ea4808857e0b714f09a
+      size: 122852

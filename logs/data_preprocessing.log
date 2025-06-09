@@ -1,0 +1,85 @@
+2025-06-10 00:31:51,364 - data_preprocessing - ERROR - File not found: [Errno 2] No such file or directory: '../data/raw/train.csv'
+2025-06-10 00:33:31,273 - data_preprocessing - ERROR - File not found: [Errno 2] No such file or directory: '../data/raw/train.csv'
+2025-06-10 00:35:14,453 - data_preprocessing - ERROR - File not found: [Errno 2] No such file or directory: '../data/raw/train.csv'
+2025-06-10 00:37:05,547 - data_preprocessing - ERROR - File not found: [Errno 2] No such file or directory: '../data/raw/train.csv'
+2025-06-10 00:43:39,616 - data_preprocessing - ERROR - File not found: [Errno 2] No such file or directory: '../data/raw/train.csv'
+2025-06-10 00:46:19,513 - data_preprocessing - DEBUG - Data loaded properly
+2025-06-10 00:46:19,518 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-06-10 00:46:19,525 - data_preprocessing - DEBUG - Null values:
+Total_Length                 0
+Scrap_Length                 0
+Total_Surface                0
+Mean_Tension                 0
+Min_Tension                  0
+Max_Tension                  0
+Median_Tension               0
+Skew_Tension                 0
+Kurtosis_Tension             0
+StdDev_Tension               0
+RMS_Tension                  0
+Roll_Diameter                0
+Remaining_Bush_Width_Days    0
+Bush_Wear_mm                 0
+maintenance_required         0
+dtype: int64
+2025-06-10 00:46:19,530 - data_preprocessing - DEBUG - Preprocessing complete
+2025-06-10 00:46:19,536 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-06-10 00:46:19,540 - data_preprocessing - DEBUG - Null values:
+Total_Length                 0
+Scrap_Length                 0
+Total_Surface                0
+Mean_Tension                 0
+Min_Tension                  0
+Max_Tension                  0
+Median_Tension               0
+Skew_Tension                 0
+Kurtosis_Tension             0
+StdDev_Tension               0
+RMS_Tension                  0
+Roll_Diameter                0
+Remaining_Bush_Width_Days    0
+Bush_Wear_mm                 0
+maintenance_required         0
+dtype: int64
+2025-06-10 00:46:19,542 - data_preprocessing - DEBUG - Preprocessing complete
+2025-06-10 00:46:21,271 - data_preprocessing - DEBUG - Processed data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\src\..\data\processed
+2025-06-10 00:46:48,737 - data_preprocessing - DEBUG - Data loaded properly
+2025-06-10 00:46:48,738 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-06-10 00:46:48,741 - data_preprocessing - DEBUG - Null values:
+Total_Length                 0
+Scrap_Length                 0
+Total_Surface                0
+Mean_Tension                 0
+Min_Tension                  0
+Max_Tension                  0
+Median_Tension               0
+Skew_Tension                 0
+Kurtosis_Tension             0
+StdDev_Tension               0
+RMS_Tension                  0
+Roll_Diameter                0
+Remaining_Bush_Width_Days    0
+Bush_Wear_mm                 0
+maintenance_required         0
+dtype: int64
+2025-06-10 00:46:48,749 - data_preprocessing - DEBUG - Preprocessing complete
+2025-06-10 00:46:48,750 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-06-10 00:46:48,752 - data_preprocessing - DEBUG - Null values:
+Total_Length                 0
+Scrap_Length                 0
+Total_Surface                0
+Mean_Tension                 0
+Min_Tension                  0
+Max_Tension                  0
+Median_Tension               0
+Skew_Tension                 0
+Kurtosis_Tension             0
+StdDev_Tension               0
+RMS_Tension                  0
+Roll_Diameter                0
+Remaining_Bush_Width_Days    0
+Bush_Wear_mm                 0
+maintenance_required         0
+dtype: int64
+2025-06-10 00:46:48,755 - data_preprocessing - DEBUG - Preprocessing complete
+2025-06-10 00:46:51,200 - data_preprocessing - DEBUG - Processed data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\src\..\data\processed

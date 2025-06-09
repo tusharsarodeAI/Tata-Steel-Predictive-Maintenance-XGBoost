@@ -1,0 +1,12 @@
+2025-06-09 18:03:46,986 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/tusharsarodeAI/Tata-Steel-Predictive-Maintenance-XGBoost/refs/heads/master/tata_steel_predictive_maintenance.csv
+2025-06-09 18:03:47,029 - data_ingestion - DEBUG - Target column 'maintenance_required' created.
+2025-06-09 18:03:48,666 - data_ingestion - DEBUG - Train and test data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\raw
+2025-06-10 00:30:24,566 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/tusharsarodeAI/Tata-Steel-Predictive-Maintenance-XGBoost/refs/heads/master/tata_steel_predictive_maintenance.csv
+2025-06-10 00:30:24,602 - data_ingestion - DEBUG - Target column 'maintenance_required' created.
+2025-06-10 00:30:26,474 - data_ingestion - DEBUG - Train and test data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\raw
+2025-06-10 00:36:39,577 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/tusharsarodeAI/Tata-Steel-Predictive-Maintenance-XGBoost/refs/heads/master/tata_steel_predictive_maintenance.csv
+2025-06-10 00:36:39,624 - data_ingestion - DEBUG - Target column 'maintenance_required' created.
+2025-06-10 00:36:41,724 - data_ingestion - DEBUG - Train and test data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\raw
+2025-06-10 00:43:09,475 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/tusharsarodeAI/Tata-Steel-Predictive-Maintenance-XGBoost/refs/heads/master/tata_steel_predictive_maintenance.csv
+2025-06-10 00:43:09,543 - data_ingestion - DEBUG - Target column 'maintenance_required' created.
+2025-06-10 00:43:12,158 - data_ingestion - DEBUG - Train and test data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\raw
