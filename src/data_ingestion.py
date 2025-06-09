@@ -58,6 +58,8 @@ def create_target(df: pd.DataFrame, threshold: float = 3.0) -> pd.DataFrame:
     try:
         df['maintenance_required'] = df['Bush_Wear_mm'].apply(lambda x: 1 if x >= threshold else 0)
         logger.debug("Target column 'maintenance_required' created.")
+        df.drop(columns=['Bush_Wear_mm'], inplace=True)
+
         return df
     except KeyError as e:
         logger.error(f"Required column not found: {e}")
@@ -67,12 +69,12 @@ def create_target(df: pd.DataFrame, threshold: float = 3.0) -> pd.DataFrame:
         raise
 
 
-def save_data(train_df: pd.DataFrame, test_df: pd.DataFrame, save_dir: str) -> None:
+def save_data(df: pd.DataFrame, save_dir: str) -> None:
     """Save the train and test datasets to CSV."""
     try:
         os.makedirs(save_dir, exist_ok=True)
-        train_df.to_csv(os.path.join(save_dir, "train.csv"), index=False)
-        test_df.to_csv(os.path.join(save_dir, "test.csv"), index=False)
+    
+        df.to_csv(os.path.join(save_dir, "dataset.csv"), index=False)
         logger.debug(f"Train and test data saved to {save_dir}")
     except Exception as e:
         logger.error(f"Error saving files: {e}")
@@ -83,6 +85,5 @@ def save_data(train_df: pd.DataFrame, test_df: pd.DataFrame, save_dir: str) -> N
 if __name__ == "__main__":
     df = load_data(DATA_URL)
     df = create_target(df)
-    train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
-    save_data(train_df, test_df, LOCAL_DATA_DIR)
+    save_data(df, LOCAL_DATA_DIR)
 

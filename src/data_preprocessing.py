@@ -72,23 +72,21 @@ def main():
     """
     try:
         project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        train_path = os.path.join(project_root, 'data', 'raw', 'train.csv')
-        test_path = os.path.join(project_root, 'data', 'raw', 'test.csv')
+        train_path = os.path.join(project_root, 'data', 'raw', 'dataset.csv')
+        
 
-        train_data = pd.read_csv(train_path)
-        test_data = pd.read_csv(test_path)
+        dataset = pd.read_csv(train_path)
+        
 
         logger.debug('Data loaded properly')
 
         # Transform the data
-        train_processed_data = preprocess_df(train_data)
-        test_processed_data = preprocess_df(test_data)
+        train_processed_data = preprocess_df(dataset)
 
         data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed')
         os.makedirs(data_path, exist_ok=True)
 
-        train_processed_data.to_csv(os.path.join(data_path, "train_processed.csv"), index=False)
-        test_processed_data.to_csv(os.path.join(data_path, "test_processed.csv"), index=False)
+        train_processed_data.to_csv(os.path.join(data_path, "dataset_processed.csv"), index=False)
 
         logger.debug('Processed data saved to %s', data_path)
     except FileNotFoundError as e:

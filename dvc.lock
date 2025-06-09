@@ -5,51 +5,43 @@ stages:
     deps:
     - path: src/data_ingestion.py
       hash: md5
-      md5: 906f96a63425c4047e97a716488ff588
-      size: 2956
+      md5: c46efcdef5ae3fc25b7475544fee5d88
+      size: 2822
     outs:
     - path: data/raw
       hash: md5
-      md5: e41ff0c52c3b163391f2b14316031052.dir
-      size: 12171043
-      nfiles: 2
+      md5: 629c02d14e03fea62f64a54448b56702.dir
+      size: 11259998
+      nfiles: 1
   preprocess:
     cmd: python src/data_preprocessing.py
     deps:
-    - path: data/raw/test.csv
+    - path: data/raw/dataset.csv
       hash: md5
-      md5: 57259b06275ab25a3dbae3a65486068d
-      size: 2434168
-    - path: data/raw/train.csv
-      hash: md5
-      md5: 1c57ca749d5e31e186d842f500918cb6
-      size: 9736875
+      md5: f23f9bd4b6ca5b455dd1fbb3dcc5b988
+      size: 11259998
     - path: src/data_preprocessing.py
       hash: md5
-      md5: fe52123471669c2f6e7ea99bd8ef9225
-      size: 3083
+      md5: ffe2b9a2993d5cf1a9c16b8c1dfc11c1
+      size: 2830
     outs:
-    - path: data/processed/test_processed.csv
+    - path: data/processed/dataset_processed.csv
       hash: md5
-      md5: 0adb5f3407ee92ffe0b94ca6b74d71e4
-      size: 2432366
-    - path: data/processed/train_processed.csv
-      hash: md5
-      md5: ba84a54a992c323b738e4355b82bdf13
-      size: 9729282
+      md5: 552bc27bae9f04e3dfbf1d5c19a985ea
+      size: 11251137
   train_model:
     cmd: python src/model_training.py
     deps:
-    - path: data/processed/train_processed.csv
+    - path: data/processed/dataset_processed.csv
       hash: md5
-      md5: ba84a54a992c323b738e4355b82bdf13
-      size: 9729282
+      md5: 552bc27bae9f04e3dfbf1d5c19a985ea
+      size: 11251137
     - path: src/model_training.py
       hash: md5
-      md5: 5cbeb7b29b084a5e2fbd4e838fcd4c99
-      size: 3146
+      md5: 816ca10ad582be87877b655bf8617856
+      size: 3149
     outs:
     - path: models/xgb_model.pkl
       hash: md5
-      md5: 18f6cc5d070e3ea4808857e0b714f09a
-      size: 122852
+      md5: b0b559d8d2555491fcdb4cd2dccc6bfd
+      size: 121387

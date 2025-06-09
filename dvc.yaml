@@ -9,16 +9,15 @@ stages:
   preprocess:
     cmd: python src/data_preprocessing.py
     deps:
-      - data/raw/train.csv
-      - data/raw/test.csv
+      - data/raw/dataset.csv
       - src/data_preprocessing.py
     outs:
-      - data/processed/train_processed.csv
-      - data/processed/test_processed.csv
+      - data/processed/dataset_processed.csv
+     
   train_model:
     cmd: python src/model_training.py
     deps:
-      - data/processed/train_processed.csv
+      - data/processed/dataset_processed.csv
       - src/model_training.py
     outs:
       - models/xgb_model.pkl  

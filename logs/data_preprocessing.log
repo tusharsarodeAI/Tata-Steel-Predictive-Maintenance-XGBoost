@@ -83,3 +83,65 @@ maintenance_required         0
 dtype: int64
 2025-06-10 00:46:48,755 - data_preprocessing - DEBUG - Preprocessing complete
 2025-06-10 00:46:51,200 - data_preprocessing - DEBUG - Processed data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\src\..\data\processed
+2025-06-10 01:57:54,816 - data_preprocessing - DEBUG - Data loaded properly
+2025-06-10 01:57:54,874 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-06-10 01:57:54,887 - data_preprocessing - DEBUG - Null values:
+Total_Length                 0
+Scrap_Length                 0
+Total_Surface                0
+Mean_Tension                 0
+Min_Tension                  0
+Max_Tension                  0
+Median_Tension               0
+Skew_Tension                 0
+Kurtosis_Tension             0
+StdDev_Tension               0
+RMS_Tension                  0
+Roll_Diameter                0
+Remaining_Bush_Width_Days    0
+Bush_Wear_mm                 0
+maintenance_required         0
+dtype: int64
+2025-06-10 01:57:54,898 - data_preprocessing - DEBUG - Preprocessing complete
+2025-06-10 01:57:57,505 - data_preprocessing - DEBUG - Processed data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\src\..\data\processed
+2025-06-10 01:58:48,510 - data_preprocessing - DEBUG - Data loaded properly
+2025-06-10 01:58:48,511 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-06-10 01:58:48,518 - data_preprocessing - DEBUG - Null values:
+Total_Length                 0
+Scrap_Length                 0
+Total_Surface                0
+Mean_Tension                 0
+Min_Tension                  0
+Max_Tension                  0
+Median_Tension               0
+Skew_Tension                 0
+Kurtosis_Tension             0
+StdDev_Tension               0
+RMS_Tension                  0
+Roll_Diameter                0
+Remaining_Bush_Width_Days    0
+Bush_Wear_mm                 0
+maintenance_required         0
+dtype: int64
+2025-06-10 01:58:48,524 - data_preprocessing - DEBUG - Preprocessing complete
+2025-06-10 01:58:51,135 - data_preprocessing - DEBUG - Processed data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\src\..\data\processed
+2025-06-10 02:08:43,606 - data_preprocessing - DEBUG - Data loaded properly
+2025-06-10 02:08:43,607 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-06-10 02:08:43,622 - data_preprocessing - DEBUG - Null values:
+Total_Length                 0
+Scrap_Length                 0
+Total_Surface                0
+Mean_Tension                 0
+Min_Tension                  0
+Max_Tension                  0
+Median_Tension               0
+Skew_Tension                 0
+Kurtosis_Tension             0
+StdDev_Tension               0
+RMS_Tension                  0
+Roll_Diameter                0
+Remaining_Bush_Width_Days    0
+maintenance_required         0
+dtype: int64
+2025-06-10 02:08:43,633 - data_preprocessing - DEBUG - Preprocessing complete
+2025-06-10 02:08:45,762 - data_preprocessing - DEBUG - Processed data saved to C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\src\..\data\processed

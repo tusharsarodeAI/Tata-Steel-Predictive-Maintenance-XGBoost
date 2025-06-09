@@ -39,3 +39,57 @@
 weighted avg       1.00      1.00      1.00      8000
 
 2025-06-10 01:28:39,731 - model_training - DEBUG - Model saved to: models\xgb_model.pkl
+2025-06-10 02:00:22,853 - model_training - DEBUG - Feature path: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\dataset_processed.csv
+2025-06-10 02:00:22,855 - model_training - DEBUG - Model path: models\xgb_model.pkl
+2025-06-10 02:00:22,855 - model_training - DEBUG - Loading DataFrame from: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\dataset_processed.csv
+2025-06-10 02:00:23,203 - model_training - DEBUG - Features shape: (50000, 14), Labels shape: (50000,)
+2025-06-10 02:00:23,228 - model_training - DEBUG - Train shape: (40000, 14), Validation shape: (10000, 14)
+2025-06-10 02:00:27,551 - model_training - DEBUG - XGBoost model training complete.
+2025-06-10 02:00:27,577 - model_training - DEBUG - Validation Accuracy: 0.9998
+2025-06-10 02:00:27,699 - model_training - DEBUG - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2932
+           1       1.00      1.00      1.00      7068
+
+    accuracy                           1.00     10000
+   macro avg       1.00      1.00      1.00     10000
+weighted avg       1.00      1.00      1.00     10000
+
+2025-06-10 02:00:27,760 - model_training - DEBUG - Model saved to: models\xgb_model.pkl
+2025-06-10 02:02:02,178 - model_training - DEBUG - Feature path: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\dataset_processed.csv
+2025-06-10 02:02:02,178 - model_training - DEBUG - Model path: models\xgb_model.pkl
+2025-06-10 02:02:02,178 - model_training - DEBUG - Loading DataFrame from: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\dataset_processed.csv
+2025-06-10 02:02:02,478 - model_training - DEBUG - Features shape: (50000, 14), Labels shape: (50000,)
+2025-06-10 02:02:02,490 - model_training - DEBUG - Train shape: (35000, 14), Validation shape: (15000, 14)
+2025-06-10 02:02:08,572 - model_training - DEBUG - XGBoost model training complete.
+2025-06-10 02:02:08,603 - model_training - DEBUG - Validation Accuracy: 0.9997
+2025-06-10 02:02:08,646 - model_training - DEBUG - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4422
+           1       1.00      1.00      1.00     10578
+
+    accuracy                           1.00     15000
+   macro avg       1.00      1.00      1.00     15000
+weighted avg       1.00      1.00      1.00     15000
+
+2025-06-10 02:02:08,659 - model_training - DEBUG - Model saved to: models\xgb_model.pkl
+2025-06-10 02:08:52,389 - model_training - DEBUG - Feature path: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\dataset_processed.csv
+2025-06-10 02:08:52,390 - model_training - DEBUG - Model path: models\xgb_model.pkl
+2025-06-10 02:08:52,390 - model_training - DEBUG - Loading DataFrame from: C:\personal projects\Tata-Steel-Predictive-Maintenance-XGBoost\data\processed\dataset_processed.csv
+2025-06-10 02:08:52,678 - model_training - DEBUG - Features shape: (50000, 13), Labels shape: (50000,)
+2025-06-10 02:08:52,706 - model_training - DEBUG - Train shape: (35000, 13), Validation shape: (15000, 13)
+2025-06-10 02:08:57,386 - model_training - DEBUG - XGBoost model training complete.
+2025-06-10 02:08:57,456 - model_training - DEBUG - Validation Accuracy: 0.8459
+2025-06-10 02:08:57,511 - model_training - DEBUG - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.67      0.72      4422
+           1       0.87      0.92      0.89     10578
+
+    accuracy                           0.85     15000
+   macro avg       0.82      0.80      0.81     15000
+weighted avg       0.84      0.85      0.84     15000
+
+2025-06-10 02:08:57,525 - model_training - DEBUG - Model saved to: models\xgb_model.pkl
